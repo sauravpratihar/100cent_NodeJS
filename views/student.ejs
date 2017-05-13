@@ -1,0 +1,21 @@
+<% include part/header %>
+<form action="<%= url %>/add_student" method="post">
+    Name:<br>
+    <input type="text" name="name"><br>
+    Institute:<br>
+    <select name="institute" id="">
+      <option value="inst1">inst 1</option>
+    </select><br>
+
+    Student ID:<br>
+    <input type="text" name="student_id"><br>
+
+    MCS Key:<br>
+    <input type="text" name="mcs_key"><br>
+    Image Path:<br>
+    <input type="text" name="image_path"><br><br>
+  
+
+    <input type="submit" name="" id="">
+</form>
+<% include part/footer %>

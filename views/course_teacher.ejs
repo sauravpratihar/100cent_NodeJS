@@ -1,0 +1,26 @@
+<% include part/header %>
+<% var i %>
+<form>
+    Institute:<br>
+    <!--<%= institutes[0] %>-->
+    <select name="institute" id="">
+        <% institutes.forEach(function(value) { %>
+            <option value="<%= value %>"><%= value %></option>
+            
+        <% }) %>      
+   
+    </select><br>
+
+    Course:<br>
+    <select name="course" id="">
+      <option value="course">course 1</option>
+    </select><br>
+
+    Teacher:<br>
+    <select name="Teacher" id="">
+      <option value="Teacher1">Teacher 1</option>
+    </select><br><br>
+
+    <input type="submit" name="" id="">
+</form>
+<% include part/footer %>
